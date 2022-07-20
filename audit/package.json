@@ -1,0 +1,19 @@
+{
+  "name": "audit",
+  "version": "1.0.0",
+  "main": "e2e.js",
+  "license": "MIT",
+  "scripts": {
+    "screenshots": "cross-env NODE_DEBUG=audit-* node e2e"
+  },
+  "dependencies": {
+    "puppeteer-core": "*"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0"
+  }
+}

@@ -1,0 +1,21 @@
+.card {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border: 0.5px;
+    border-style: solid;
+    height: 300px;
+    width: 300px
+}
+.product-image {
+    max-height: 150px;
+}
+.product-name {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.price {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
